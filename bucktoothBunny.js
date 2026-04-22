@@ -1,12 +1,12 @@
 function setup() {
-  // This creates the drawing area
   createCanvas(400, 400);
 }
 
 function draw() {
-  background(220); // Light gray background
+  background(220); 
 
   // Bunny Ears
+  stroke(0);
   fill(255);
   ellipse(150, 70, 60, 120);  // left ear
   ellipse(240, 70, 60, 120);  // right ear
@@ -17,14 +17,15 @@ function draw() {
   // Eyes
   var eyesize = 9;
   fill(0);
-  ellipse(170, 150, eyesize, eyesize);  // left eye
-  ellipse(230, 150, eyesize, eyesize);  // right eye
+  ellipse(170, 150, eyesize, eyesize); 
+  ellipse(230, 150, eyesize, eyesize); 
 
-  // Mouth and Teeth
-  line(150, 200, 250, 200);   // mouth line
+  // Mouth
+  line(150, 200, 250, 200);   
 
-  fill(255); // White teeth
+  // Teeth
+  fill(255);
   var teethsize = 30; 
-  rect(185, 200, 15, teethsize); // left tooth
-  rect(200, 200, 15, teethsize); // right tooth
+  rect(185, 200, 15, teethsize); 
+  rect(200, 200, 15, teethsize); 
 }
