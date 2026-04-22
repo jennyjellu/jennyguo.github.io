@@ -2,30 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenny's Bunny Site</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
-    
     <style>
-        /* CSS to style the background, font, and layout */
         body {
-            background-color: #222; /* Dark background as seen in image_3.png */
-            color: #eaffff; /* Pale text color for visibility */
-            font-family: 'Menlo', monospace; /* Monospaced font often preferred by INTJs */
-            
-            /* The 'Flexbox magic' that centers everything perfectly */
+            background-color: #222;
+            color: white; /* This makes sure your text isn't invisible */
+            font-family: sans-serif;
             margin: 0;
             display: flex;
-            flex-direction: column; /* Stacks text and canvas vertically */
-            justify-content: center; /* Centers horizontally on screen */
-            align-items: center; /* Centers items internally */
-            height: 100vh; /* Full viewport height */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-
-        /* Adds a margin specifically to the bottom of the title */
         h1 {
-            margin-bottom: 30px; /* Controls the space between text and bunny */
-            font-size: 2.5em; /* Large, clear title font size */
+            margin-bottom: 20px;
         }
     </style>
 </head>
