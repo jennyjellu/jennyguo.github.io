@@ -25,7 +25,7 @@ function draw() {
 
   // Teeth
   fill(255);
-  var teethsize = 30; 
+  var teethsize = 50; 
   rect(185, 200, 15, teethsize); 
   rect(200, 200, 15, teethsize); 
 }
